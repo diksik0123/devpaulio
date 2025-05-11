@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --background-color: #242424; 
+    --text-color: #ffffff; 
+    --sub-text-color: #768498;
+    --hover-text-color: #5ae0cd;
+    --font-family: 'Roboto', sans-serif;
+    --badge-bg-color: #17323f;
+    --cursorX: 50vw;
+    --cursorY: 50vh;
+}
+
+:root:before {
+  content: '';
+  display: block;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  pointer-events: none;
+  background: radial-gradient(
+    circle 50vmax at var(--cursorX) var(--cursorY),
+    rgba(255, 255, 255, 0.02) 0%,
+    rgba(255, 255, 255, 0.03) 30%,
+    rgba(255, 255, 255, 0) 80%
+  )
+}
+
+body {
+    letter-spacing: 1px;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    font-family: var(--font-family) !important;
+    font-weight: 200;
+    font-style: normal;
+
+    section{
+        padding-left: 20px;
+    }
+
+    .container{
+        .sticky-nav{
+            position: sticky;
+            top: 0px;
+            align-self: start;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .sticky-nav{
+            position: static !important;
+        }
+        
+    }
+    
+    span{
+        font-weight: 800;
+     }
+}

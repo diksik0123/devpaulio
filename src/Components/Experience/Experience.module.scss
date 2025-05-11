@@ -1,0 +1,53 @@
+section{
+    .experience-container{
+        border-radius: 5px;
+        cursor: pointer;
+        i{
+            position: absolute;
+            font-size: 12px;
+            padding-top: 5px;
+        }
+        .date-text{
+                color: var(--sub-text-color) !important;
+        }
+        .badge-container{
+            color: var(--hover-text-color) !important;
+            background: var(--badge-bg-color) !important;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        &:hover{
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            .job-title{
+                color: var(--hover-text-color) !important;
+            }
+            .date-text{
+                color: var(--text-color) !important;
+                }
+            i{
+                transition: all 0.3s;
+                padding-top: 0px;
+                color: var(--hover-text-color) !important;
+            }
+        }
+    }
+    .resume-text{
+        color: var(--text-color) !important;
+        text-decoration: none !important;
+        i{
+            position: absolute;
+            font-size: 10px;
+            padding-top: 5px;
+        }
+
+        &:hover{
+            color: var(--hover-text-color) !important;
+            i{
+                transition: all 0.3s;
+                padding-top: 0px;
+            }
+        }
+    }
+}

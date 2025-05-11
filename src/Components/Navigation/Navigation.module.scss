@@ -1,0 +1,101 @@
+section{
+    padding-top: 80px;
+    header {
+        h1 {
+            font-size: 3.0rem;
+            margin-bottom: 20px;
+        }
+
+        p:nth-child(2){
+            font-size: 1.5rem;
+            font-weight: 600; 
+        }
+
+        p:nth-child(3) {
+            color: var(--sub-text-color);
+            }
+    }
+    nav > div > ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    
+        a {
+            text-decoration: none;
+            font-weight: 600; 
+            color: var(--sub-text-color);;
+            display: flex; 
+            align-items: center;
+            width: 200px;
+    
+            &::before {
+                content: "";
+                display: block;
+                width: 20px;
+                height: 1px;
+                margin-right: 10px;
+                background: var(--sub-text-color);
+            }
+    
+            &:hover {
+                color: var(--text-color);
+                transition: 0.3s;
+                
+                &::before {
+                    width: 50px;
+                    transition: 0.3s;
+                }
+            }
+
+            &.active{
+                color: var(--text-color);
+                transition: 0.3s;
+
+                &::before {
+                    width: 50px;
+                    transition: 0.3s;
+                }
+            }
+            
+        }
+    }
+    
+
+    footer{
+        margin-top: 25%;
+        gap: 15px;
+        a {
+            color: var(--sub-text-color);
+            i{
+                font-size: 25px;
+            }
+            &:hover{
+                color: var(--text-color);
+                transition: 0.3s;
+                i{
+                    transition: 0.3s;
+                }
+            }
+        }
+    }
+}
+
+//mobile viewport
+@media (min-width: 768px) {
+    h5 {
+        display: none;
+    }
+}
+
+
+//maximize footer size
+@media (min-width: 1440px) {
+    footer{
+        margin-top: 80% !important;
+    }
+}
+
+

@@ -1,0 +1,34 @@
+section{
+    .project-container{
+        border-radius: 5px;
+        cursor: pointer;
+        i{
+            position: absolute;
+            font-size: 12px;
+            padding-top: 5px;
+        }
+        .badge-container{
+            color: var(--hover-text-color) !important;
+            background: var(--badge-bg-color) !important;
+            padding: 10px;
+            border-radius: 15px;
+        }
+        &:hover{
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            .project-title{
+                color: var(--hover-text-color) !important;
+            }
+            i{
+                transition: all 0.3s;
+                padding-top: 0px;
+                color: var(--hover-text-color) !important;
+            }
+        }
+                
+        .img-style{
+            border: 1px solid var(--sub-text-color) !important;
+        }
+    }
+}
