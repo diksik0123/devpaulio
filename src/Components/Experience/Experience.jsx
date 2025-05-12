@@ -24,7 +24,7 @@ function Experience() {
                         </div>
                     </div>
                     <div className='container ps-0 mt-5'>
-                        <a className={styles['resume-text']} href="../../../public/resume_paulbocalan.pdf" target="_blank" rel="noopener noreferrer"><span style={styles.span}>View Full Résumé</span>&nbsp;<i className="bi bi-arrow-up-right"></i></a>
+                        <a className={styles['resume-text']} href="/resume_paulbocalan.pdf" target="_blank" rel="noopener noreferrer"><span style={styles.span}>View Full Résumé</span>&nbsp;<i className="bi bi-arrow-up-right"></i></a>
                     </div>
                 </div>
             </section>
