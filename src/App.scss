@@ -11,6 +11,7 @@
     --cursorY: 50vh;
 }
 
+//custom cursor
 :root:before {
   content: '';
   display: block;
@@ -35,11 +36,23 @@ body {
     font-weight: 200;
     font-style: normal;
 
+    .custom-spinner{
+        width: 4rem;
+        height: 4rem;
+        color: var(--hover-text-color);
+    }
+
+    .static-icon{
+        position: absolute;
+        font-size: 1.5rem;
+    }
+
     section{
         padding-left: 20px;
     }
 
     .container{
+        animation: fade-up 0.5s ease-in-out;
         .sticky-nav{
             position: sticky;
             top: 0px;
@@ -58,3 +71,30 @@ body {
         font-weight: 800;
      }
 }
+
+//spinner animation
+.skeleton{
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        color: var(--background-color);
+    }
+    100% {
+        color: var(--hover-text-color);
+    }  
+}
+
+//fade up animation
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
