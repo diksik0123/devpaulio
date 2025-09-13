@@ -1,7 +1,8 @@
 import Navigation from './Components/Navigation/Navigation.jsx'
 import About from './Components/About/About.jsx'
 import Experience from './Components/Experience/Experience.jsx'
-import Projects from './Components/Projects/Projects.jsx'
+import Skills from './Components/Skills/Skills.jsx'
+import Footer from './Components/Footer/Footer.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -57,9 +58,11 @@ function App() {
           <div className="row">
             <div className="col-12"><About /></div>
             <div className="col-12"><Experience/></div>
-            <div className="col-12"><Projects /></div>
+            <div className="col-12"><Skills /></div>
+            <div className="col-12"><Footer /></div>
           </div>
         </div>
+
       </div>
     </div>
     </>

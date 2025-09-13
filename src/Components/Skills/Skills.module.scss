@@ -1,0 +1,55 @@
+section{
+    .skill{
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 8px;
+        display: flex;
+        &:hover{
+            transition: all 0.3s;
+            background: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            span{
+                color: var(--hover-text-color) !important;
+            }
+            .icon-html{
+                color: #e44d26;
+            }
+            .icon-css{
+                color: #264de4;
+            }
+            .icon-bootstrap{
+                color: #563d7c;
+            }
+            .icon-sass{
+                color: #cc6699;
+            }
+            .icon-js{
+                color: #f7df1e;
+            }
+            .icon-react{
+                color: #61dafb;
+            }
+            .icon-angular{
+                color: #dd0031;
+            }
+            .icon-git{
+                color: #f1502f;
+            }
+            .icon-github{
+                color: #333;
+            }
+            .icon-gitlab{
+                color: #e24329;
+            }
+        }
+        span{
+            color: var(--sub-text-color);
+        }
+        .icons{
+            font-size: 25px;
+            margin-right: 12px;
+            color: var(--sub-text-color);
+        }
+    }
+}
+    

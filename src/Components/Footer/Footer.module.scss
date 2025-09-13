@@ -1,0 +1,22 @@
+section{
+  .footer-text{
+    font-size: 15px;
+    color: var(--sub-text-color);
+  }
+
+  a{
+    text-decoration: none;
+    color: var(--sub-text-color);
+    font-weight: 600;
+  }
+
+  a{
+    color: var(--text-color);
+    font-weight: 700;
+  }
+
+  a:hover{
+    color: var(--hover-text-color);
+    transition: 0.3s;
+  }
+}

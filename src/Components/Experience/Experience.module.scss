@@ -8,7 +8,7 @@ section{
             padding-top: 5px;
         }
         .date-text{
-                color: var(--sub-text-color) !important;
+            color: var(--sub-text-color) !important;
         }
         .badge-container{
             color: var(--hover-text-color) !important;
@@ -47,6 +47,10 @@ section{
             i{
                 transition: all 0.3s;
                 padding-top: 0px;
+            }
+            span{
+                color: var(--hover-text-color) !important;
+                transition: 0.3s;
             }
         }
     }

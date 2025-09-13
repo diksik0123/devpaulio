@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --background-color: #242424; 
-    --text-color: #ffffff; 
-    --sub-text-color: #768498;
-    --hover-text-color: #5ae0cd;
+    --background-color: #2a2a40;
+    --text-color: #e4e7ec;         
+    --sub-text-color: #9faac2;      
+    --hover-text-color: #66d1f7;    
+    --badge-bg-color: #3c405d;       
     --font-family: 'Roboto', sans-serif;
-    --badge-bg-color: #17323f;
     --cursorX: 50vw;
     --cursorY: 50vh;
 }
@@ -49,6 +49,7 @@ body {
 
     section{
         padding-left: 20px;
+        padding-top: 80px;
     }
 
     .container{
@@ -66,10 +67,16 @@ body {
         }
         
     }
+
+    p{
+        color: var(--sub-text-color);
+        line-height: 1.6;
+    }
     
     span{
+        color: var(--text-color);
         font-weight: 800;
-     }
+    }
 }
 
 //spinner animation

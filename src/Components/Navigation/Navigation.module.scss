@@ -9,6 +9,7 @@ section{
         p:nth-child(2){
             font-size: 1.5rem;
             font-weight: 600; 
+            color: var(--text-color);
         }
 
         p:nth-child(3) {
@@ -26,7 +27,7 @@ section{
         a {
             text-decoration: none;
             font-weight: 600; 
-            color: var(--sub-text-color);;
+            color: var(--sub-text-color);
             display: flex; 
             align-items: center;
             width: 200px;
@@ -41,7 +42,7 @@ section{
             }
     
             &:hover {
-                color: var(--text-color);
+                color: var(--hover-text-color);
                 transition: 0.3s;
                 
                 &::before {
@@ -51,7 +52,7 @@ section{
             }
 
             &.active{
-                color: var(--text-color);
+                color: var(--hover-text-color);
                 transition: 0.3s;
 
                 &::before {
@@ -66,16 +67,20 @@ section{
 
     footer{
         margin-top: 25%;
-        gap: 15px;
+        gap: 5px;
+        
         a {
             color: var(--sub-text-color);
-            i{
+            .icons{
                 font-size: 25px;
+                margin-right: 12px;
+                color: var(--sub-text-color);
             }
             &:hover{
-                color: var(--text-color);
+                color: var(--hover-text-color);
                 transition: 0.3s;
-                i{
+                .icons{
+                    color: var(--hover-text-color);
                     transition: 0.3s;
                 }
             }
@@ -83,15 +88,15 @@ section{
     }
 }
 
-//mobile viewport
+// mobile viewport
 @media (min-width: 768px) {
-    h5 {
+    h5 { 
         display: none;
     }
 }
 
 
-//maximize footer size
+// //maximize footer size
 @media (min-width: 1440px) {
     footer{
         margin-top: 80% !important;
