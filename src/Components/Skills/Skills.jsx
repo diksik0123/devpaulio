@@ -9,7 +9,7 @@ function Skills() {
     <>
       <section id='skills' className={styles.skills}>
         <div className={`row pt-3 pb-3 ${styles.container}`}>
-          <h5 className='mb-3'>SKILLS</h5>
+          <h5 className='mb-4'>SKILLS</h5>
           <div className={`${styles['skills-container']} d-flex gap-4 flex-wrap ps-0`}>
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faHtml5} className={`${styles.icons} ${styles["icon-html"]}`} title="HTML5" /> <span>HTML</span>

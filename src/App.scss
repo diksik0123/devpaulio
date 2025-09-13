@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --background-color: #2a2a40;
-    --text-color: #e4e7ec;         
-    --sub-text-color: #9faac2;      
-    --hover-text-color: #66d1f7;    
-    --badge-bg-color: #3c405d;       
+    --background-color: #212529;
+    --text-color: #E9ECEF;         
+    --sub-text-color: #CED4DA;      
+    --hover-text-color: #F2A1A9;    
+    --badge-bg-color: #4A2F33;       
     --font-family: 'Roboto', sans-serif;
     --cursorX: 50vw;
     --cursorY: 50vh;
@@ -65,7 +65,6 @@ body {
         .sticky-nav{
             position: static !important;
         }
-        
     }
 
     p{

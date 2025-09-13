@@ -29,6 +29,7 @@ section{
             i{
                 transition: all 0.3s;
                 padding-top: 0px;
+                padding-left: 3px;
                 color: var(--hover-text-color) !important;
             }
         }
@@ -47,11 +48,18 @@ section{
             i{
                 transition: all 0.3s;
                 padding-top: 0px;
+                padding-left: 3px;
             }
             span{
                 color: var(--hover-text-color) !important;
-                transition: 0.3s;
+                transition: all 0.3s;
             }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .experience-container{
+            flex-direction: column;
         }
     }
 }
