@@ -8,7 +8,7 @@ function Skills() {
   return (
     <>
       <section id='skills' className={styles.skills}>
-        <div className={`row pt-3 pb-3 ${styles.container}`}>
+        <div className={`row pt-4 pb-4 ${styles['skills-wrapper']}`}>
           <h5 className='mb-5'>SKILLS</h5>
           <div className={`${styles['skills-container']} d-flex gap-4 flex-wrap ps-0`}>
             <div className={`${styles.skill}`}>
