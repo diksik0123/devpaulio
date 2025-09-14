@@ -37,7 +37,7 @@ function Navigation() {
         
         <>
             <section id='navigation'>
-                <div> 
+                <div className={styles['navigation-container']}> 
                     <header className="mb-5">
                         <h1>Paul Bocalan</h1>
                         <p>Front End Developer</p>

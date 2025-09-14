@@ -51,5 +51,11 @@ section{
             color: var(--sub-text-color);
         }
     }
+
+    @media (max-width: 768px) {
+        .skills-container{
+            justify-content: center;
+        }
+    }
 }
     
