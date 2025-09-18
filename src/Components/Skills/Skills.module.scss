@@ -55,9 +55,13 @@ section{
         }
     }
     @media (max-width: 768px) {
+        #skills{
+            padding-left: 0;
+        }
         .skills-container{
             justify-content: center;
         }
+
     }
 }
     
