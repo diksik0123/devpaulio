@@ -34,9 +34,6 @@ function Skills() {
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faReact} className={`${styles.icons} ${styles["icon-react"]}`} title="React" /> <span>React</span>
             </div>
-              <div className={`${styles.skill}`}>
-              <FontAwesomeIcon icon={faGitlab} className={`${styles.icons} ${styles["icon-gitlab"]}`} title="GitLab" /> <span>GitLab</span>
-            </div>
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faAngular} className={`${styles.icons} ${styles["icon-angular"]}`} title="Angular" /> <span>Angular</span>
             </div>
