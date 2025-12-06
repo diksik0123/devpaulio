@@ -2,9 +2,9 @@ section{
     .experience-container{
         border-radius: 5px;
         cursor: pointer;
-        i{
+        .arrow-icon{
             position: absolute;
-            font-size: 12px;
+            font-size: 20px;
             padding-top: 5px;
         }
         .date-text{
@@ -20,16 +20,17 @@ section{
             transition: all 0.3s;
             background: rgba(255, 255, 255, 0.1);
             box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            color: var(--hover-text-color) !important;
             .job-title{
                 color: var(--hover-text-color) !important;
             }
             .date-text{
                 color: var(--text-color) !important;
-                }
-            i{
+            }
+            .arrow-icon{
                 transition: all 0.3s;
                 padding-top: 0px;
-                padding-left: 3px;
+                padding-left: 6px;
                 color: var(--hover-text-color) !important;
             }
         }
@@ -37,18 +38,18 @@ section{
     .resume-text{
         color: var(--text-color) !important;
         text-decoration: none !important;
-        i{
+        .arrow-icon{
             position: absolute;
-            font-size: 10px;
+            font-size: 20px;
             padding-top: 5px;
         }
 
         &:hover{
             color: var(--hover-text-color) !important;
-            i{
+            .arrow-icon{
                 transition: all 0.3s;
                 padding-top: 0px;
-                padding-left: 3px;
+                padding-left: 6px;
             }
             span{
                 color: var(--hover-text-color) !important;

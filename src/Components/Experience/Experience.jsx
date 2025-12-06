@@ -1,4 +1,5 @@
 import styles from './Experience.module.scss';
+import { LuArrowUpRight } from "react-icons/lu";
 
 function Experience() {
     return (
@@ -11,7 +12,7 @@ function Experience() {
                             <p className={styles['date-text']}>2024 - Present</p>
                         </div>
                         <div className={`col-8 ${styles['col-custom']}`}>
-                            <p><span className={styles['job-title']} style={styles.span}>Front-End Junior Software Engineer, Cognitif Incorporated</span>&nbsp;<i className="bi bi-arrow-up-right"></i></p>
+                            <p><span className={styles['job-title']} style={styles.span}>Front-End Junior Software Engineer, Cognitif Incorporated</span>&nbsp;<LuArrowUpRight className={styles['arrow-icon']}/></p>
                             <p>Responsible for developing and maintaining software applications in UI side, collaborating with API Developers, and ensuring the delivery of high-quality code.</p>
                             <div className={`d-flex gap-2 flex-wrap`}>
                                 <div className={`badge bg-primary ${styles['badge-container']}`}>Angular</div>
@@ -24,7 +25,7 @@ function Experience() {
                         </div>
                     </div>
                     <div className='container ps-0 mt-5'>
-                        <a className={styles['resume-text']} href="/resume_paulbocalan.pdf" target="_blank" rel="noopener noreferrer"><span style={styles.span}>View Full Résumé</span>&nbsp;<i className="bi bi-arrow-up-right"></i></a>
+                        <a className={styles['resume-text']} href="/resume_paulbocalan.pdf" target="_blank" rel="noopener noreferrer"><span style={styles.span}>View Full Résumé</span>&nbsp;<LuArrowUpRight className={styles['arrow-icon']}/></a>
                     </div>
                 </div>
             </section>
