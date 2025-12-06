@@ -3,7 +3,7 @@ import styles from './Experience.module.scss';
 function Experience() {
     return (
         <>
-            <section id='experience'>
+            <section id='experience' className="fade-up">
                 <div className="container">
                     <h5 className='mb-3'>EXPERIENCES</h5>
                     <div className={`row pt-3 pb-3 ${styles['experience-container']}`} onClick={() => window.open('https://www.empleyado.com/', '_blank')}>

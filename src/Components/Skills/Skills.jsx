@@ -1,13 +1,12 @@
 import styles from './Skills.module.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHtml5, faCss3Alt, faJsSquare, faBootstrap, faSass, faReact, faAngular ,faGitAlt, faGithub, faGitlab } from '@fortawesome/free-brands-svg-icons';
-
-
+import { faHtml5, faCss3Alt, faJsSquare, faBootstrap, faSass, faReact, faAngular ,faGitAlt, faGithub, faGitlab, } from '@fortawesome/free-brands-svg-icons';
+import { SiTypescript, SiPostman, SiTailwindcss } from "react-icons/si";
 
 function Skills() {
   return (
     <>
-      <section id='skills' className={styles.skills}>
+      <section id='skills' className={`${[styles.skills]} fade-up`}>
         <div className={`row pt-4 pb-4 ${styles['skills-wrapper']}`}>
           <h5 className='mb-5'>SKILLS</h5>
           <div className={`${styles['skills-container']} d-flex gap-4 flex-wrap ps-0`}>
@@ -24,10 +23,19 @@ function Skills() {
               <FontAwesomeIcon icon={faSass} className={`${styles.icons} ${styles["icon-sass"]}`} title="SaSS" /> <span>SaSS</span>
             </div>
             <div className={`${styles.skill}`}>
+              <SiTailwindcss className={`${styles.icons} ${styles["icon-tailwind"]}`} title="Tailwind CSS"/> <span>Tailwind CSS</span>
+            </div>
+            <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faJsSquare} className={`${styles.icons} ${styles["icon-js"]}`} title="JavaScript" /> <span>JavaScript</span>
             </div>
             <div className={`${styles.skill}`}>
+              <SiTypescript className={`${styles.icons} ${styles["icon-typescript"]}`} title="TypeScript"/> <span>TypeScript</span>
+            </div>
+            <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faReact} className={`${styles.icons} ${styles["icon-react"]}`} title="React" /> <span>React</span>
+            </div>
+              <div className={`${styles.skill}`}>
+              <FontAwesomeIcon icon={faGitlab} className={`${styles.icons} ${styles["icon-gitlab"]}`} title="GitLab" /> <span>GitLab</span>
             </div>
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faAngular} className={`${styles.icons} ${styles["icon-angular"]}`} title="Angular" /> <span>Angular</span>
@@ -40,6 +48,9 @@ function Skills() {
             </div>
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faGitlab} className={`${styles.icons} ${styles["icon-gitlab"]}`} title="GitLab" /> <span>GitLab</span>
+            </div>
+            <div className={`${styles.skill}`}>
+              <SiPostman className={`${styles.icons} ${styles["icon-postman"]}`} title="Postman"/> <span>Postman</span>
             </div>
           </div>
         </div>

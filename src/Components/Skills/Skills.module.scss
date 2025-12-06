@@ -34,15 +34,19 @@ section{
                 .icon-angular{
                     color: #dd0031;
                 }
-                .icon-git{
+                .icon-git, .icon-gitlab, .icon-postman{
                     color: #f1502f;
                 }
                 .icon-github{
                     color: #333;
                 }
-                .icon-gitlab{
-                    color: #e24329;
+                .icon-tailwind{
+                    color: #06B6D4;
                 }
+                .icon-typescript{
+                    color: #3178C6;
+                }
+
             }
             span{
                 color: var(--sub-text-color);

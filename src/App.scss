@@ -83,6 +83,15 @@ body {
     animation: skeleton-loading 1s linear infinite alternate;
 }
 
+.fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-up.show {
+  animation: fade-up 0.6s ease forwards;
+}
+
 @keyframes skeleton-loading {
     0% {
         color: var(--background-color);
