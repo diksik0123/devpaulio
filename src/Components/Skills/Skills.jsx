@@ -1,7 +1,7 @@
 import styles from './Skills.module.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faHtml5, faCss3Alt, faJsSquare, faBootstrap, faSass, faAngular ,faGitAlt, faGithub, faGitlab} from '@fortawesome/free-brands-svg-icons';
-import { SiTypescript, SiPostman, SiTailwindcss} from "react-icons/si";
+import { SiTypescript, SiPostman, SiTailwindcss, SiDotnet, SiMysql } from "react-icons/si";
 
 function Skills() {
   return (
@@ -43,15 +43,12 @@ function Skills() {
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faGitlab} className={`${styles.icons} ${styles["icon-gitlab"]}`} title="GitLab" /> <span>GitLab</span>
             </div>
-            {/* <div className={`${styles.skill}`}>
-              <FontAwesomeIcon icon={SiCsharp} className={`${styles.icons} ${styles["icon-cSharp"]}`} title="C#" /> <span>C#</span>
-            </div> */}
-            {/* <div className={`${styles.skill}`}>
-              <FontAwesomeIcon icon={SiDotnet} className={`${styles.icons} ${styles["icon-dotNet"]}`} title="dotNet" /> <span>ASP .Net</span>
-            </div>
             <div className={`${styles.skill}`}>
-              <FontAwesomeIcon icon={SiMicrosoftsqlserver} className={`${styles.icons} ${styles["icon-sql"]}`} title="SQL" /> <span>SQL</span>
-            </div> */}
+                <SiDotnet  className={`${styles.icons} ${styles["icon-dotnet"]}`} title="DotNet"/> <span>ASP.NET</span>
+            </div>
+             <div className={`${styles.skill}`}>
+                <SiMysql className={`${styles.icons} ${styles["icon-sql"]}`} title="SQL"/> <span>SQL</span>
+            </div>
             <div className={`${styles.skill}`}>
               <SiPostman className={`${styles.icons} ${styles["icon-postman"]}`} title="Postman"/> <span>Postman</span>
             </div>
