@@ -5,7 +5,7 @@ function Footer() {
     <>
     <section id='footer' className={`${styles['footer-section']}`}>
       <div className={`d-flex w-75 ${styles.footer}`}>
-        <p className={styles['footer-text']}>Made and coded by <span>me</span>, <span>myself</span>, and <span>I</span>. Built with <span>React.JS</span>, <span>Bootstrap</span>, and <span>SaSS</span>, deployed with <span>Vercel</span> | Inspired by <a href="https://www.brittanychiang.com/" target="_blank">Britanny Chiang</a> portfolio template.</p>
+        <p className={styles['footer-text']}>Made and coded by <span>me</span>, <span>myself</span>, and <span>I</span>. Built with <span>React.JS</span>, <span>Bootstrap</span>, and <span>SCSS</span>, deployed with <span>Vercel</span> | Inspired by <a href="https://www.brittanychiang.com/" target="_blank">Britanny Chiang</a> portfolio template.</p>
       </div>
     </section>
     </>
