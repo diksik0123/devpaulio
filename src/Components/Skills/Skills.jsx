@@ -1,7 +1,7 @@
 import styles from './Skills.module.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faHtml5, faCss3Alt, faJsSquare, faBootstrap, faSass, faReact, faAngular ,faGitAlt, faGithub, faGitlab, } from '@fortawesome/free-brands-svg-icons';
-import { SiTypescript, SiPostman, SiTailwindcss } from "react-icons/si";
+import { faHtml5, faCss3Alt, faJsSquare, faBootstrap, faSass, faAngular ,faGitAlt, faGithub, faGitlab} from '@fortawesome/free-brands-svg-icons';
+import { SiTypescript, SiPostman, SiTailwindcss} from "react-icons/si";
 
 function Skills() {
   return (
@@ -32,9 +32,6 @@ function Skills() {
               <SiTypescript className={`${styles.icons} ${styles["icon-typescript"]}`} title="TypeScript"/> <span>TypeScript</span>
             </div>
             <div className={`${styles.skill}`}>
-              <FontAwesomeIcon icon={faReact} className={`${styles.icons} ${styles["icon-react"]}`} title="React" /> <span>React</span>
-            </div>
-            <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faAngular} className={`${styles.icons} ${styles["icon-angular"]}`} title="Angular" /> <span>Angular</span>
             </div>
             <div className={`${styles.skill}`}>
@@ -46,6 +43,15 @@ function Skills() {
             <div className={`${styles.skill}`}>
               <FontAwesomeIcon icon={faGitlab} className={`${styles.icons} ${styles["icon-gitlab"]}`} title="GitLab" /> <span>GitLab</span>
             </div>
+            {/* <div className={`${styles.skill}`}>
+              <FontAwesomeIcon icon={SiCsharp} className={`${styles.icons} ${styles["icon-cSharp"]}`} title="C#" /> <span>C#</span>
+            </div> */}
+            {/* <div className={`${styles.skill}`}>
+              <FontAwesomeIcon icon={SiDotnet} className={`${styles.icons} ${styles["icon-dotNet"]}`} title="dotNet" /> <span>ASP .Net</span>
+            </div>
+            <div className={`${styles.skill}`}>
+              <FontAwesomeIcon icon={SiMicrosoftsqlserver} className={`${styles.icons} ${styles["icon-sql"]}`} title="SQL" /> <span>SQL</span>
+            </div> */}
             <div className={`${styles.skill}`}>
               <SiPostman className={`${styles.icons} ${styles["icon-postman"]}`} title="Postman"/> <span>Postman</span>
             </div>

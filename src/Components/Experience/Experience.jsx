@@ -12,7 +12,7 @@ function Experience() {
                             <p className={styles['date-text']}>2024 - Present</p>
                         </div>
                         <div className={`col-8 ${styles['col-custom']}`}>
-                            <p><span className={styles['job-title']} style={styles.span}>Front-End Junior Software Engineer, Cognitif Incorporated</span>&nbsp;<LuArrowUpRight className={styles['arrow-icon']}/></p>
+                            <p><span className={styles['job-title']} style={styles.span}>Front-End Developer, empleyado Incorporated</span>&nbsp;<LuArrowUpRight className={styles['arrow-icon']}/></p>
                             <p>Responsible for developing and maintaining software applications in UI side, collaborating with API Developers, and ensuring the delivery of high-quality code.</p>
                             <div className={`d-flex gap-2 flex-wrap`}>
                                 <div className={`badge bg-primary ${styles['badge-container']}`}>Angular</div>
